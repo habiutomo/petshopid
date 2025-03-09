@@ -1,13 +1,14 @@
 
 # PetShopID - E-Commerce Platform for Pet Needs
 
-(page.png)
-(page1.png)
-(signin.png)
-(signup.png)
-(testi.png)
+![Page](page.png)
+![Page1](page1.png)
+![Signin](signin.png)
+![Signup](signup.png)
+![Testi](testi.png)
 
 PetShopID adalah platform e-commerce lengkap untuk kebutuhan hewan peliharaan yang ditargetkan untuk pasar Indonesia. Platform ini menyediakan berbagai produk berkualitas untuk segala jenis hewan peliharaan dengan pengalaman belanja online yang mudah dan aman.
+
 
 ## Fitur Utama
 
