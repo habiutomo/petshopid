@@ -1,11 +1,11 @@
 
 # PetShopID - E-Commerce Platform for Pet Needs
 
-[PetShopID Screenshot](page.png)
-[PetShopID Screenshot](page1.png)
-[PetShopID Screenshot](signin.png)
-[PetShopID Screenshot](signup.png)
-[PetShopID Screenshot](testi.png)
+(page.png)
+(page1.png)
+(signin.png)
+(signup.png)
+(testi.png)
 
 PetShopID adalah platform e-commerce lengkap untuk kebutuhan hewan peliharaan yang ditargetkan untuk pasar Indonesia. Platform ini menyediakan berbagai produk berkualitas untuk segala jenis hewan peliharaan dengan pengalaman belanja online yang mudah dan aman.
 
@@ -134,8 +134,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Kontak
 
-Project Link: [https://github.com/yourusername/petshopid](https://github.com/yourusername/petshopid)
-
----
-
-Dibuat dengan ❤️ untuk komunitas pecinta hewan peliharaan Indonesia
+silahkan email habizinnia@gmail.com jika butuh repo ini
