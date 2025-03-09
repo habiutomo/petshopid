@@ -6,6 +6,7 @@
 ![Signin](signin.png)
 ![Signup](signup.png)
 ![Testi](testi.png)
+![Testi](payment.png)
 
 PetShopID adalah platform e-commerce lengkap untuk kebutuhan hewan peliharaan yang ditargetkan untuk pasar Indonesia. Platform ini menyediakan berbagai produk berkualitas untuk segala jenis hewan peliharaan dengan pengalaman belanja online yang mudah dan aman.
 
