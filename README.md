@@ -1,53 +1,56 @@
-# PetShopID - E-Commerce Platform
 
-PetShopID adalah platform e-commerce untuk kebutuhan hewan peliharaan yang ditargetkan untuk pasar Indonesia. Platform ini menyediakan berbagai produk untuk hewan peliharaan dengan pengalaman belanja online yang lengkap.
+# PetShopID - E-Commerce Platform for Pet Needs
 
-![PetShopID Screenshot](petshop.jpg)
+[![PetShopID Screenshot](https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)](https://petshopid.replit.app)
+
+PetShopID adalah platform e-commerce lengkap untuk kebutuhan hewan peliharaan yang ditargetkan untuk pasar Indonesia. Platform ini menyediakan berbagai produk berkualitas untuk segala jenis hewan peliharaan dengan pengalaman belanja online yang mudah dan aman.
 
 ## Fitur Utama
 
 ### Untuk Pengguna
-- **Katalog Produk**: Jelajahi beragam produk untuk berbagai jenis hewan peliharaan (anjing, kucing, burung, ikan, dan lainnya)
-- **Pencarian & Filter**: Temukan produk dengan mudah menggunakan fungsi pencarian dan filter berdasarkan kategori, harga, dan merek
-- **Keranjang Belanja**: Tambahkan produk ke keranjang dan kelola dengan mudah
-- **Proses Checkout**: Proses pembayaran yang aman dan intuitif
-- **Akun Pengguna**: Daftar dan kelola profil, lihat riwayat pesanan
-- **Responsif**: Desain yang optimal untuk perangkat desktop dan mobile
+- **Katalog Produk Lengkap**: Jelajahi beragam produk untuk berbagai jenis hewan peliharaan (anjing, kucing, burung, ikan, dan lainnya)
+- **Pencarian & Filter Canggih**: Temukan produk dengan mudah menggunakan fungsi pencarian dan filter berdasarkan kategori, harga, brand, dan rating
+- **Keranjang Belanja**: Tambahkan produk ke keranjang dan kelola dengan mudah sebelum checkout
+- **Proses Checkout yang Aman**: Nikmati proses pembayaran yang aman dengan berbagai metode pembayaran
+- **Akun Pengguna**: Daftar dan kelola profil, simpan alamat pengiriman, dan lihat riwayat pesanan
+- **Desain Responsif**: Pengalaman belanja yang optimal di perangkat desktop dan mobile
 
 ### Untuk Admin (Coming Soon)
-- **Manajemen Produk**: Tambah, edit, dan hapus produk
-- **Manajemen Kategori**: Atur kategori produk
-- **Manajemen Pesanan**: Lihat dan proses pesanan
-- **Analitik**: Dapatkan wawasan tentang penjualan dan perilaku pengguna
+- **Dashboard Admin**: Kontrol penuh atas platform dengan dashboard yang informatif
+- **Manajemen Produk**: Tambah, edit, dan hapus produk dengan mudah
+- **Manajemen Kategori**: Atur kategori dan subkategori produk
+- **Manajemen Pesanan**: Lihat, proses, dan update status pesanan
+- **Analitik**: Dapatkan wawasan mendalam tentang penjualan dan perilaku pengguna
+- **Manajemen Stok**: Kelola inventaris dan stok produk
 
 ## Teknologi
 
 ### Frontend
-- **React**: Library JavaScript untuk membangun antarmuka pengguna
-- **TypeScript**: Superset JavaScript yang menambahkan tipe statis
-- **Tailwind CSS**: Framework CSS untuk desain yang cepat dan konsisten
-- **shadcn/ui**: Komponen UI yang dapat digunakan kembali
-- **TanStack Query**: Untuk mengelola state server dan data fetching
-- **Wouter**: Untuk routing
+- **React**: Library JavaScript untuk membangun antarmuka pengguna interaktif
+- **TypeScript**: Superset JavaScript yang menambahkan tipe statis untuk kode lebih andal
+- **Tailwind CSS**: Framework CSS utilitas-pertama untuk styling yang cepat dan konsisten
+- **shadcn/ui**: Komponen UI yang dapat digunakan kembali dan mudah dikustomisasi
+- **TanStack Query**: Mengelola state server dan fetching data secara efisien
+- **Wouter**: Lightweight routing untuk aplikasi React
 
 ### Backend
 - **Node.js**: Runtime JavaScript untuk server
-- **Express**: Framework web untuk Node.js
-- **Drizzle ORM**: ORM (Object-Relational Mapping) untuk database
-- **Passport.js**: Middleware otentikasi untuk Node.js
+- **Express**: Framework web untuk Node.js yang cepat dan minimalis
+- **Drizzle ORM**: ORM (Object-Relational Mapping) modern untuk database
+- **Passport.js**: Middleware otentikasi yang fleksibel untuk Node.js
 
 ### Database
 - **Memory Storage**: Penyimpanan in-memory untuk pengembangan
-- **PostgreSQL**: (Planned) Database relasional untuk produksi
+- **PostgreSQL**: (Planned) Database relasional yang kuat untuk produksi
 
 ## Struktur Direktori
 
 ```
 ├── client/             # Kode frontend React
 │   ├── src/
-│   │   ├── components/ # Komponen UI
+│   │   ├── components/ # Komponen UI reusable
 │   │   ├── hooks/      # Custom React hooks
-│   │   ├── lib/        # Utilitas dan fungsi bantuan
+│   │   ├── lib/        # Utilitas dan fungsi helper
 │   │   ├── pages/      # Komponen halaman
 │   │   └── App.tsx     # Komponen root aplikasi
 │   └── index.html      # Entrypoint HTML
@@ -70,7 +73,7 @@ PetShopID adalah platform e-commerce untuk kebutuhan hewan peliharaan yang ditar
 
 1. Clone repositori:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yourusername/petshopid.git
    cd petshopid
    ```
 
@@ -91,11 +94,21 @@ PetShopID adalah platform e-commerce untuk kebutuhan hewan peliharaan yang ditar
 
 ## Deployment
 
-PetShopID dapat di-deploy menggunakan beberapa platform:
+PetShopID dapat di-deploy dengan mudah menggunakan Replit:
 
-1. **Replit**: Deploy langsung dari Replit dengan mengklik tombol deploy.
-2. **Vercel/Netlify**: Deploy bagian frontend.
-3. **Heroku/Railway**: Deploy bagian backend.
+1. Fork repositori di Replit
+2. Aplikasi akan otomatis dibangun dan berjalan
+3. Gunakan tombol "Run" untuk memulai server
+4. Untuk deployment publik, gunakan fitur "Deployment" di Replit
+
+## Fitur yang Akan Datang
+
+- Integrasi pembayaran dengan gateway populer di Indonesia
+- Fitur wishlist untuk menyimpan produk favorit
+- Sistem review dan rating produk yang lebih lengkap
+- Pelacakan pesanan real-time
+- PWA (Progressive Web App) untuk pengalaman mobile yang lebih baik
+- Chatbot bantuan pelanggan
 
 ## Kontribusi
 
@@ -107,14 +120,18 @@ Kontribusi untuk meningkatkan PetShopID sangat diapresiasi. Berikut adalah langk
 4. Push ke branch (`git push origin feature/amazing-feature`)
 5. Buka Pull Request
 
+## Dukungan
+
+Jika Anda memiliki pertanyaan atau mengalami masalah, silakan buka issue di repositori GitHub.
+
 ## Lisensi
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Kontak
 
-Project Link: [https://github.com/habiutomo/petshopid](https://github.com/habiutomo/petshopid)
+Project Link: [https://github.com/yourusername/petshopid](https://github.com/yourusername/petshopid)
 
 ---
 
-jika butuh repo ini silahkan email [habizinnia@gmail.com]
+Dibuat dengan ❤️ untuk komunitas pecinta hewan peliharaan Indonesia
