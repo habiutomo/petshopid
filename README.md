@@ -113,8 +113,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Kontak
 
-Project Link: [https://github.com/habiutomo/petshopid](https://github.com/habiutomo/petshopid)
+Project Link: [https://github.com/habiutomo/petshop](https://github.com/habiutomo/petshop)
 
 ---
 
-Dibuat dengan ❤️ oleh [habizinnia@gmail.com]
+jika butuh repo ini silahkan email [habizinnia@gmail.com]
